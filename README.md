@@ -12,12 +12,12 @@ $columns: 3;
 $gutters: 5%;
 
 ul {
-  @include nup-container
+  @include nup-container($gutters);
 }
 
 li {
-  @include nup-item-base;
-  @include nup-item;
+  @include nup-item-base($gutters, $columns);
+  @include nup-item($columns);
 }
 ```
 
