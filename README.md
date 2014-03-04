@@ -1,7 +1,7 @@
-nup
+N-up
 ===
 
-Sass mixin for making simple grids of elements.
+Sass mixin for making simple grids of elements such as 2-up or 5-up.
 
 ## Basic Usage
 
